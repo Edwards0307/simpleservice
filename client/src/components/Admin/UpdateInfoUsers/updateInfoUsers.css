@@ -1,0 +1,145 @@
+.formUpdate {
+  margin-bottom: -280px;
+  background: #1a1a25;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 150vh;
+}
+.containerUpdate {
+  position: absolute;
+  width: 60%;
+  height: 125%;
+  margin: 2% 25%;
+  background-color: #252636;
+  color: #9f90ea;
+  border-radius: 20px;
+  box-shadow: 0 0 25px #303246;
+}
+.navUpdat {
+  background-color: #252636;
+  position: absolute;
+  margin-top: -10%;
+  position: fixed;
+}
+.titleUpdate {
+  margin-top: 45px;
+  margin-bottom: 30px;
+  font-size: 50px;
+  font-weight: 700;
+  font-family: system-ui;
+  color:  #9f90ea;
+  letter-spacing: 1px;
+}
+.iconUpdate {
+  font-size: 25px;
+  margin-right: 5px;
+  color: #141414;
+  position: absolute;
+  padding: 8px 0;
+  margin-left: 10px;
+  padding-right: 5px;
+  border-right: 1px solid  #9f90ea;
+}
+
+.validUpdate {
+  color: rgb(240, 89, 89);
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-size: 2vh;
+}
+
+.subUpdate {
+  position: absolute;
+  margin-top: 10%;
+  margin-left: -38%;
+  height: 7%;
+  width: 14%;
+  color: #9f90ea;
+  border: 2px solid #9f90ea;
+  font-weight: 600;
+  font-size: 190%;
+  letter-spacing: 2px;
+  font-family: system-ui;
+  border-radius: 10px;
+  background-color: #1a1a25;
+  box-shadow: 0 0 15px #303246;
+}
+.subUpdate:hover {
+  border: 1px solid #9f90ea;
+  border-radius: 10px;
+  background-color: #9f90ea;
+  color: #1a1a25;
+  box-shadow: 0 0 2px 2px rgb(255, 255, 255);
+}
+.inpUpdate {
+  padding: 12px 2px 15px 48px;
+  margin-bottom: 12px;
+  border-radius: 10px;
+  width: 60%;
+  background-color:  #e9eff2;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 1em;
+  transform: 0.5s;
+  outline: none;
+}
+
+
+.proPhraseUpdate {
+  font-size: 120%;
+  font-weight: 500;
+  font-family: system-ui;
+  color: #9f90ea;
+  letter-spacing: 1px;
+}
+.circleBoxUpdate {
+  color: rgb(69, 67, 67);
+  font-family: system-ui;
+  font-weight: 500;
+  margin-left: 8px;
+  font-size: 130%;
+}
+.proLinkUpdate {
+  color: rgb(240, 89, 89);
+}
+
+.spantitleUpdate {
+  font-size: 140%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-weight: 600;
+  margin-left: 21%;
+  margin-bottom: 1.5%;
+  color: #9f90ea;
+}
+
+.selUpdate {
+  margin-left: 0;
+  padding: 12px 2px 15px 48px;
+  margin-bottom: 12px;
+  border-radius: 10px;
+  width: 60%;
+  background-color:  #e9eff2;
+  color: rgb(87, 87, 87);
+  font-weight: 600;
+  letter-spacing: 1px;
+  border: none;
+  font-size: 1em;
+  transform: 0.5s;
+  outline: none;
+}
+
+.priceUpdate {
+  margin-top: 3.5%;
+}
+
+.navUpdate {
+  background-color: #252636;
+  position: absolute;
+  margin-top: -8%;
+  position: fixed;
+}

@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+* {
+  margin: 0;
+  padding: 0;
+  background: none;
+}
+.container {
+  min-height: 315px;
+  width: 400px;
+  margin: 70px 20px !important;
+  padding: 0;
+  cursor: pointer;
+  background-color: #1C1C26;
+  border: 1px solid #E9EFF2;
+  box-shadow: 0 0 2px 4px #5EBFB5;
+  border-radius: 15px;
+}
+.container img {
+  width: 100%;
+  height: 220px;
+  border-radius: 10px;
+  position: relative;
+  z-index: 1000;
+  transition: all 0.5s ease-in-out;
+  margin-top: 5px;
+  object-fit: contain;
+  background-color: #1C1C26;
+}
+.serviceContainer {
+  color: #5EBFB5;
+  font-weight: 400;
+  width: 98%;
+  font-family: 'Merienda', cursive;
+  letter-spacing: 2px;
+  margin-top: 2%;
+  margin-bottom: 3%;
+  font-size: 150%;
+}
+.boxCard{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  margin: 2rem 0;
+  color: #252636;
+  overflow: hidden;
+  margin-top: -200px;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s ease-in-out;
+}
+
+.name {
+  color: #E9EFF2;
+  margin: 0.1rem auto;
+  text-align: center;
+  font-weight: 400;
+  font-family: 'Merienda', cursive;
+  margin-top: 2.5%;
+  letter-spacing: 2px;
+  font-size: 26px;
+}
+
+.price {
+  margin-top: 3%;
+  font-size: 180%;
+  line-height: 1.8rem;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #1a1a25;
+  font-family: 'Merienda', cursive;
+}
+
+.rating {
+  font-size: 180%;
+  font-weight: 300;
+  line-height: 1.8rem;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #1a1a25;
+  margin-top: 1%;
+  font-family: 'Merienda', cursive;
+}
+
+.more {
+  width: 145px;
+  padding: 2px 2px 5px 2px;
+  display: block;
+  letter-spacing: 2px;
+  text-align: center;
+  margin: 0.6rem auto;
+  font-size: 120%;
+  color: #E9EFF2;
+  text-decoration: none;
+  background-color: #1a1a25;
+  border-radius: 10px;
+  transition: 0.3s;
+  font-family: 'Merienda', cursive;
+}
+
+.more:hover {
+  color: #252636;
+  background-color: #5EBFB5;
+  box-shadow: 0 0 2px 2px #252636;
+}
+.container:hover img {
+  display: flex;
+  margin-top: -60px;
+  box-shadow: 0 0 4px 6px #5EBFB5;
+}
+.container:hover > .card {
+  margin-top: 0;
+  opacity: 1;
+  visibility: visible;
+}
+@media screen and (max-width: 800px) {
+  .container {
+    flex-wrap: wrap;
+  }
+}

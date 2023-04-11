@@ -1,0 +1,237 @@
+.containerCart {
+  width: 100%;
+  background-color: #c3cace;
+}
+.emptyCart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.boxShop {
+  margin-left: 10%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  background-color: #252636;
+  color: #1a1a25;
+  margin-top: 1%;
+  margin-bottom: -1.5%;
+  border: 8px solid #252636;
+  border-radius: 20px 20px 0 0;
+  width: 80%;
+  height: 25vh;
+  box-shadow: 0 0 55px #303246;
+}
+.titleCart1 {
+  margin-top: -8px;
+  margin-bottom: 30px;
+  margin-left: 30%;
+  font-size: 350%;
+  font-weight: 700;
+  font-family: 'Merienda', cursive;
+  color: #5ebfb5;
+  letter-spacing: 1px;
+  background-color: #252636;
+  width: 40%;
+  padding: 2%;
+  border-radius: 30px;
+}
+.titleCart {
+  margin-bottom: 30px;
+  margin-left: 30%;
+  font-size: 300%;
+  font-weight: 700;
+  font-family: 'Merienda', cursive;
+  color: #5ebfb5;
+  letter-spacing: 1px;
+  background-color: #252636;
+  width: 40%;
+  padding: 1%;
+  border-radius: 30px;
+}
+.emptyBoxC {
+  margin-left: 25%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  background-color: #252636;
+  color: #1a1a25;
+  margin-top: 10%;
+  border: 8px solid #252636;
+  border-radius: 50px;
+  width: 50%;
+  height: 60vh;
+  box-shadow: 0 0 55px #303246;
+}
+.shoppingCart2{
+  color: #ccd0d2;
+  margin-bottom: 8%;
+}
+.shoppingCart3{
+  color: #ccd0d2;
+}
+.pEmpty {
+  text-align: center;
+  border-radius: 10px;
+  width: 60%;
+  color: #ababbd;
+  font-family: 'Merienda', cursive;
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-size: 150%;
+}
+.btnEmpty1 {
+  text-decoration: none;
+  color: #5ebfb5;
+  font-weight: 600;
+  font-size: 150%;
+  letter-spacing: 2px;
+  font-family: 'Merienda', cursive;
+}
+.btnEmpty1:hover {
+  color: white;
+  text-shadow: 0 0 10px #1a1a25;
+}
+.btnRED{
+  font-size: 100%;
+  letter-spacing: 2px;
+  font-family: 'Merienda', cursive;
+}
+
+.btnEmpty {
+  position: absolute;
+  margin-top: 8%;
+  margin-left: 2%;
+  text-decoration: none;
+  color: #5ebfb5;
+  font-weight: 600;
+  font-size: 150%;
+  letter-spacing: 2px;
+  font-family: 'Merienda', cursive;
+  margin-bottom: 2%
+}
+.btnEmpty:hover {
+  color: white;
+  text-shadow: 0 0 10px #1a1a25;
+}
+.cartBox {
+  width: 100%;
+margin-bottom: 5%;
+}
+.tableBoxCart {
+  background-color: #252636;
+  width: 80%;
+  margin-left: 10%;
+}
+.thCart {
+ background-color:#12121a;
+  font-size: 180%;
+  text-align: center;
+  font-family: 'Merienda';
+  letter-spacing: 1px;
+}
+.tdCart {
+   background-color: #fff;
+  font-size: 130%;
+  font-family: 'Merienda';
+  letter-spacing: 1px;
+}
+.imgCart {
+  margin-bottom: 5%;
+}
+.editCart {
+  margin-right: 10%;
+  font-size: 150%;
+}
+.binCart {
+  font-size: 150%;
+}
+.quantCart {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+}
+.btnDecr {
+  border: 2px solid grey;
+  padding: 2px 13px 2px 13px;
+  font-size: 120%;
+  border-radius: 10px;
+  margin-right: 10%;
+  cursor: pointer;
+}
+.btnDecr:hover {
+  cursor: pointer;
+  color: white;
+  background-color: #5b5b5b;
+  box-shadow: 0 0 2px 4px white;
+}
+.btnIncr {
+  border: 2px solid grey;
+  padding: 2px 12px 2px 12px;
+  font-size: 120%;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.btnIncr:hover {
+  cursor: pointer;
+  color: white;
+  background-color: #5b5b5b;
+  box-shadow: 0 0 2px 4px white;
+}
+.pQuant {
+  margin-right: 10%;
+}
+.btn-danger:hover {
+  font-weight: 600;
+  color: red;
+  background-color: white;
+  box-shadow: 0 0 2px 4px rgb(212, 101, 101);
+}
+.pCartItems {
+  color: #c3cace;
+  font-size: 150%;
+  margin-top: 5%;
+  font-family: 'Merienda', cursive;
+  letter-spacing: 1px;
+}
+
+.totalContainer {
+  margin-top: -1%;
+  margin-left: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: #252636;
+  width: 80%;
+  height: 35vh;
+  border-radius: 0 0 20px 20px;
+}
+.h4Total {
+  color: rgb(212, 101, 101);
+  margin-bottom: -2%;
+  font-size: 180%;
+  font-family: 'Merienda';
+  letter-spacing: 1px;
+}
+.amount {
+  margin-top: 5%;
+  color: rgb(212, 101, 101);
+  font-size: 250%;
+}
+.binCart:hover {
+  size: 35px;
+  cursor: pointer;
+}
+.clearbtn {
+  margin-left: 90%;
+  margin-top: 2%;
+}
+.totalInfo {
+  position: absolute;
+  margin-top: -1%;
+  padding-bottom: 5%;
+}

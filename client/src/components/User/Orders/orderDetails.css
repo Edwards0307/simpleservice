@@ -1,0 +1,51 @@
+
+.psOrder{
+    font-family: "Merienda", cursive;
+    margin-left: 5%;
+    text-align: left;
+    width: 50%;
+    color: #f0f3f2;
+    font-weight: 300;
+    font-size: 120%;
+    margin-bottom: 5%;
+    letter-spacing: 2px;
+
+}
+.tableContainerDetail{
+    color:#1a1a25;
+    letter-spacing: 1px;
+    width: 90%;
+    margin-left: 5%;
+}
+.btnOrderUser {
+    margin-top: 5%;
+    margin-left: -2%;
+    width: 65%;
+    height: 45px;
+    letter-spacing: 2px;
+    font-family: 'Merienda', cursive;
+    font-weight: 500;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .btnOrderUser:hover {
+    border: 1px solid #6fffe9;
+    background-color: #a5f5e9;
+    color: #1a1a25;
+    box-shadow: 0 0 2px 2px rgb(255, 255, 255);
+  
+  }
+  .tdOrderUsers2{
+    color:#1a1a25;
+    margin-top: 7%;
+    font-family: 'Merienda', cursive;
+    letter-spacing: 1px;
+    font-size: 120%;
+  }
+  .thOrderDetail{
+    color:#1a1a25;
+    margin-top: 7%;
+    font-family: 'Merienda', cursive;
+    letter-spacing: 1px;
+    font-size: 150%;
+  }

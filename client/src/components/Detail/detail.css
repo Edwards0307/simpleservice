@@ -1,0 +1,321 @@
+.details {
+  width: 100%;
+  height: 130vh!important;
+  background: #c3cace;
+}
+.detailContainer {
+  border: 2px solid transparent;
+}
+.supremeBox{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.mainDetail {
+  color: #E9EFF2;
+  max-height: 70% !important;
+  width: auto !important;
+  display: flex !important;
+  margin: 0 auto ;
+  max-width: 65% !important;
+  min-width: 65%!important;
+  border-radius: 20px !important;
+  background-color: #1a1a25;
+  box-shadow: 0 0 2px 4px #5EBFB5;
+  margin-bottom: 2% !important;
+  margin-top: 1% !important;
+}
+.cardDetailReview{
+  width: 65%;
+  border-radius: 20px !important;
+  background-color: #1a1a25;
+  box-shadow: 0 0 2px 4px #5EBFB5;
+  margin-bottom: 2% !important;
+}
+
+.emptyReviews{
+  background-color: #1a1a25;
+  border-radius:20px;
+}
+.pEmptyReview{
+  color: #c3cace;
+  font-size: 130%;
+  font-family: 'Merienda';
+  font-weight: 500;
+  width: 80%;
+  margin-left: 10%;
+  letter-spacing: 1px;
+ 
+}
+.allReviews{
+  border-radius:20px;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.allRevBox{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-bottom: 2px solid white;
+}
+.sReviews{
+  color: #c3cace;
+  font-size: 130%;
+  font-family: 'Merienda';
+  letter-spacing: 1.5px;  
+  font-weight: 500;
+}
+.infoReviewDetail{
+  width: 60%;
+}
+
+.boxCardDetail{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: auto;
+}
+.right {
+  height: auto;
+  width: 110%;
+
+}
+.infoDetail {
+  width: 100%;
+  min-width: 100%!important;
+  margin-top: 5%;
+  margin-bottom: 4%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+  align-items: center;
+  justify-content: center;
+}
+.imgBoxDet {
+  margin-bottom: 6%;
+  width: 80%;
+}
+.nameDetail {
+  font-size: 300%;
+  font-weight: 500;
+  font-family: 'Merienda';
+  letter-spacing: 1px;
+  margin-top: 10px;
+  margin-bottom: 3%;
+  color: #5EBFB5;
+}
+
+.imgDet {
+  border-radius: 20px 20px 20px 20px;
+  max-height: 350px;
+  min-width: 80%;
+  max-width: 85%;
+}
+
+
+.description {
+  width: 90%;
+  margin-left: 5%;
+  font-weight: 200;
+  line-height: 4vh;
+  font-size: 150%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  text-align: center;
+  padding: 0 0;
+   font-family: 'Merienda';
+  letter-spacing: 1px;
+}
+
+.moreDetail {
+  margin-top: 0;
+  width: 100%;
+  min-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.ratingDetail {
+  color: #E9EFF2;
+  font-weight: 600;
+  font-size: 4vh;
+  text-align: center;
+  letter-spacing: 1px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin-top: 2%;
+}
+.rat {
+  margin-bottom: 0;
+  font-family: 'Merienda';
+  letter-spacing: 1px;
+}
+.iconDetail {
+  color: #B68d2c;
+  margin-left: 8px;
+  margin-right: 3px;
+}
+.priceDetail {
+  font-weight: 500;
+  line-height: 1px;
+  font-size: 3vh;
+  margin-top: 10px;
+  text-align: center;
+  padding: 0 5px;
+  letter-spacing: 1px;
+  font-family: 'Merienda';
+  letter-spacing: 2.5px;
+  margin-bottom: 5%;
+}
+
+.serviceDetail {
+  font-weight: 400;
+  line-height: 1px;
+  font-size: 180%;
+  margin-top: 10px;
+  margin-bottom: 2%;
+  text-align: center;
+  padding: 0 5px;
+  font-family: 'Merienda';
+  letter-spacing: 1.5px;
+}
+.imgDetail {
+  width: 4vw;
+}
+
+.btnH {
+  text-decoration: none;
+  background-color: #1a1a25;
+  color: #E9EFF2;
+  border: #E9EFF2;
+  padding: 0.1%;
+  display: grid;
+  justify-content: center;
+  width: 7%;
+  position: absolute;
+  font-size: 150%;
+  font-family: 'Merienda';
+  letter-spacing: 1px;
+  padding: 10px 2px 10px 2px;
+  margin-top: 2%;
+  margin-left: 4%;
+  border-radius: 8px;
+  box-shadow: 0 0 5px #1a1a25;
+}
+
+.btnH:hover {
+  cursor: pointer;
+  color: #5EBFB5;
+  box-shadow: 0 0 2px 4px #5EBFB5;
+}
+
+.addBox {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  margin-left: 24%;
+  margin-bottom: 5%;
+  margin-top: 2%;
+}
+.--btn {
+  color: #E9EFF2;
+  font-size: 120%;
+  border: 2px solid #E9EFF2;
+  padding: 2px 13px 2px 13px;
+  border-radius: 10px;
+  margin-right: 10%;
+  cursor: pointer;
+ 
+}
+.--btn:hover {
+  cursor: pointer;
+  color: #5EBFB5;
+  box-shadow: 0 0 2px 4px #5EBFB5;
+}
+.--btnplus {
+  color: #E9EFF2;
+  font-size: 120%;
+  border: 2px solid #E9EFF2;
+  padding: 2px 10px 2px 10px;
+  border-radius: 10px;
+  margin-right: 30%;
+  cursor: pointer;
+  margin-left: 10%;
+
+}
+.--btnplus:hover {
+  cursor: pointer;
+  color: #5EBFB5;
+  box-shadow: 0 0 2px 4px #5EBFB5;
+}
+.pqDet {
+  font-size: large;
+   font-family: 'Merienda';
+  letter-spacing: 1px;
+}
+.btnAdd {
+  color: #E9EFF2;
+  cursor: pointer;
+  width: 120%;
+  border: 2px solid #E9EFF2;
+  border-radius: 10px;
+  padding: 5px 10px 5px 10px;
+  font-family: 'Merienda';
+  letter-spacing: 1px;
+}
+.btnAdd:hover {
+  cursor: pointer;
+  color: #5EBFB5;
+  box-shadow: 0 0 2px 4px #5EBFB5;
+}
+.btnAdd2 {
+  font-size: 120%;
+  color: #E9EFF2;
+  cursor: pointer;
+  width: 70%;
+  border: 2px solid #E9EFF2;
+  border-radius: 10px;
+  padding: 5px 10px 5px 10px;
+  font-family: 'Merienda';
+  letter-spacing: 1px;
+}
+.btnAdd2:hover {
+  cursor: pointer;
+  color: #5EBFB5;
+  box-shadow: 0 0 2px 4px #5EBFB5;
+}
+.cantBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-family: 'Merienda';
+}
+
+.btnMoreDetail {
+  color: #E9EFF2;
+  cursor: pointer;
+  width: 28%;
+  border: 2px solid #E9EFF2;
+  border-radius: 10px;
+  padding: 7px 10px 7px 10px;
+  font-family: 'Merienda';
+  letter-spacing: 1px;
+  font-size: 60%;
+}
+.btnMoreDetail:hover {
+  cursor: pointer;
+  color: #5EBFB5;
+  box-shadow: 0 0 2px 4px #5EBFB5;
+}
+.bPromedio{
+  font-size: 130%;
+}
