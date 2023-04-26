@@ -78,7 +78,7 @@ export default function Footer() {
               </a>
               <a
                 className="ia"
-                href="https://www.linkedin.com/in/edwards-alexis-ardila-martinez-042980149/"
+                href="https://www.linkedin.com/in/edwards-alexis-ardila-martinez-desarrollador-full-stack/"
               >
                 <BsLinkedin className="i" size={45} />
               </a>
