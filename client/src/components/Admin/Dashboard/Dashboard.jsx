@@ -20,11 +20,7 @@ import ChartAdminServices from "../ChartAdminServices";
 
 export default function Dashboard() {
   const dispatch = useDispatch();
-  const servicePercentage = useSelector(
-    (state) => state.misc.servicePercentage
-  );
   const totalServices = useSelector((state) => state.misc.totalServices);
-  const usersPercentage = useSelector((state) => state.misc.usersPercentage);
   const totalUsers = useSelector((state) => state.misc.totalUsers);
   const token = localStorage.getItem("token");
   const orders = useSelector((state) => state.orders.orderHistory);
