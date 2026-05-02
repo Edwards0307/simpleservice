@@ -1,8 +1,6 @@
 const Stripe = require("stripe");
 
-const stripe = new Stripe(
-  "sk_test_51MeScXEohVMDTuBfmBYJyc74gdooLuzF08J56gwYME95LaznIe4WTjNuSsBhGqPdZq8vEw42aTvM1mD9gKpTv3Jb007xOADlTp"
-);
+const stripe = new Stripe(process.env.STRIPE_PRIVATE_KEY);
 const checkOut = async (req, res) => {
   const { id, amount, desc } = req.body;
   try {
