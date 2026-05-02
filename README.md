@@ -1,4 +1,4 @@
-<img width="1903" height="899" alt="image" src="https://github.com/user-attachments/assets/351912be-1343-46ae-a81b-b688644f1002" /># 🛠️ SimpleService
+# 🛠️ SimpleService
 
 > Marketplace de servicios profesionales — Proyecto Final del 
 > Bootcamp Full Stack de Henry.
