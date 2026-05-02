@@ -1,4 +1,4 @@
-# 🛠️ SimpleService
+<img width="1903" height="899" alt="image" src="https://github.com/user-attachments/assets/351912be-1343-46ae-a81b-b688644f1002" /># 🛠️ SimpleService
 
 > Marketplace de servicios profesionales — Proyecto Final del 
 > Bootcamp Full Stack de Henry.
@@ -54,7 +54,7 @@ de Henry, trabajando en equipo bajo metodología Ágil (Scrum) durante
 
 ## 👥 Mi rol en el equipo
 
-[ACÁ VA TU ROL ESPECÍFICO — me lo respondes y lo lleno]
+Desarrollador Full Stack
 
 ## 🚀 Cómo correrlo localmente
 
@@ -83,7 +83,11 @@ npm start
 
 ## 📸 Capturas
 
-[Agregar 2-3 screenshots aquí]
+<img width="1897" height="910" alt="image" src="https://github.com/user-attachments/assets/58fecc52-3b08-4be2-a7e2-7745a73911dd" />
+
+
+<img width="1903" height="899" alt="image" src="https://github.com/user-attachments/assets/ddb9afbe-5c16-487f-b711-fcb62a844521" />
+
 
 ## 📝 Contexto
 
