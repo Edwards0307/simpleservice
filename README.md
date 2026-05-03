@@ -47,10 +47,14 @@ de Henry, trabajando en equipo bajo metodología Ágil (Scrum) durante
 
 **Servicios externos:**
 - Stripe (pasarela de pagos)
+- Firebase (autenticación con Google)
+- Cloudinary (almacenamiento de imágenes)
+- Nodemailer + Gmail (envío de correos)
 
 **Herramientas:**
 - Git / GitHub
-- Vercel (deploy)
+- Vercel (deploy frontend)
+- Render (deploy backend API)
 
 ## 👥 Mi rol en el equipo
 
@@ -59,27 +63,49 @@ Desarrollador Full Stack
 ## 🚀 Cómo correrlo localmente
 
 ### Prerequisitos
-- Node.js v14+
+- Node.js v22+
 - PostgreSQL
 - Cuenta de Stripe (modo test)
 
+### Variables de entorno
+
+**`api/.env`**
+```
+PORT=3001
+STRIPE_PRIVATE_KEY=sk_test_...
+DB_USER=
+DB_PASSWORD=
+DB_HOST=
+DB_NAME=
+DB_PORT=5432
+GMAIL_USER=
+GMAIL_PASS=
+FIREBASE_SERVICE_ACCOUNT_KEY=
+```
+
+**`client/.env`**
+```
+REACT_APP_STRIPE_PK=pk_test_...
+REACT_APP_ADMIN_USER=
+```
+
 ### Instalación
 
-​```bash
+```bash
 # Clonar el repositorio
 git clone https://github.com/Edwards0307/simpleservice.git
 
 # Backend
 cd simpleservice/api
 npm install
-# Configurar variables de entorno (.env)
+# Configurar variables de entorno (ver sección anterior)
 npm start
 
 # Frontend
 cd ../client
 npm install
 npm start
-​```
+```
 
 ## 📸 Capturas
 
