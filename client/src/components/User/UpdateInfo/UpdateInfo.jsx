@@ -1,5 +1,5 @@
 import React from "react";
-import { uploadFile } from "../../Firebase/config";
+import { uploadFile } from "../../Firebase/cloudinaryUpload";
 import { useSelector } from "react-redux";
 import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";

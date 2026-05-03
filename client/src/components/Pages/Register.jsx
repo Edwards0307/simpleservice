@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import { auth, uploadFile } from "../../components/Firebase/config";
+import { auth } from "../../components/Firebase/config";
+import { uploadFile } from "../../components/Firebase/cloudinaryUpload";
 import { createUserWithEmailAndPassword } from "firebase/auth";
 import Loading from "../Loading/Loading";
 import { useNavigate } from "react-router-dom";

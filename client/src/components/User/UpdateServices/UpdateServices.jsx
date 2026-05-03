@@ -6,7 +6,7 @@ import { toast } from "react-toastify";
 import "./UpdateServices.css";
 import { MdDescription } from "react-icons/md";
 import { NavBarUser } from "../../index.js";
-import { uploadCardFile } from "../../Firebase/config";
+import { uploadCardFile } from "../../Firebase/cloudinaryUpload";
 import { BsCloudArrowUp } from "react-icons/bs";
 
 export default function UpdateServices() {
