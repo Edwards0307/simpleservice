@@ -9,6 +9,7 @@ import { Link } from "react-router-dom";
 export default function CardsContainer() {
   const dispatch = useDispatch();
   const allServices = useSelector((state) => state.services.services);
+  const [loading, setLoading] = useState(true);
 
   const currentPage = useSelector((state) => state.misc.currentPage);
   const [servicesPerPage] = useState(6); // servicios por pagina
@@ -29,7 +30,7 @@ export default function CardsContainer() {
   });
 
   useEffect(() => {
-    dispatch(getServices());
+    dispatch(getServices()).finally(() => setLoading(false));
   }, [dispatch]);
 
   return (
@@ -38,7 +39,9 @@ export default function CardsContainer() {
         <Filter />
       </div>
       <div className="cardContainer">
-        {currentServices.length ? (
+        {loading ? (
+          <span className="loader"></span>
+        ) : currentServices.length ? (
           currentServices.map((user) => {
             return (
               <Link
@@ -60,7 +63,7 @@ export default function CardsContainer() {
             );
           })
         ) : (
-          <span className="loader"></span>
+          <p style={{ textAlign: "center", marginTop: "2rem" }}>No services available yet.</p>
         )}
         <Paged
           servicesPerPage={servicesPerPage}
