@@ -74,6 +74,10 @@ export default function ReviewService() {
           <br />
           {service === null ? (
             <Loading />
+          ) : !service || !service[0] ? (
+            <p style={{ textAlign: "center", color: "#ccc" }}>
+              Service not found.
+            </p>
           ) : (
             <div className="revName">
               <p className="pRev">
