@@ -77,7 +77,7 @@ export default function Create() {
       return toast.error(Object.values(error).join(", "));
     }
     axios.post(
-      "https://simpleservice-production.up.railway.app/services",
+      "https://simpleservice-w2vt.onrender.com/services",
       form,
       {
         headers: { Authorization: "Bearer " + token },

@@ -59,7 +59,7 @@ export default function AddService() {
   const submitHandler = (event) => {
     event.preventDefault();
     axios.post(
-      "https://simpleservice-production.up.railway.app/admin/services",
+      "https://simpleservice-w2vt.onrender.com/admin/services",
       form
     );
     navigate("/admin/home");

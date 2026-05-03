@@ -39,7 +39,7 @@ export default function Register() {
         setIsloading(false);
         try {
           await axios.post(
-            "https://simpleservice-production.up.railway.app/alta",
+            "https://simpleservice-w2vt.onrender.com/alta",
             {
               name: input.name,
               email: input.email,

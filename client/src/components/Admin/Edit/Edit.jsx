@@ -80,7 +80,7 @@ export default function Create() {
       return toast.error(Object.values(error).join(", "));
     }
     axios.put(
-      `https://simpleservice-production.up.railway.app/admin/services/${id}`,
+      `https://simpleservice-w2vt.onrender.com/admin/services/${id}`,
       form,
       { headers: { Authorization: "Bearer " + token } }
     );

@@ -82,7 +82,7 @@ const CheckOutForm = () => {
       const itemsDesc = JSON.stringify(items);
       try {
         await axios.post(
-          "https://simpleservice-production.up.railway.app/checkout",
+          "https://simpleservice-w2vt.onrender.com/checkout",
           {
             amount: totalPayment,
             id,
@@ -94,7 +94,7 @@ const CheckOutForm = () => {
         );
 
         await axios.post(
-          "https://simpleservice-production.up.railway.app/pago",
+          "https://simpleservice-w2vt.onrender.com/pago",
           {
             name: customerName,
             email: customerEmail,

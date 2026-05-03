@@ -28,7 +28,7 @@ export const removeUsers = () => (dispatch) => {
 export const getUsers = () => async (dispatch) => {
   try {
     const response = await axios.get(
-      "https://simpleservice-production.up.railway.app/users"
+      "https://simpleservice-w2vt.onrender.com/users"
     );
     return dispatch(setUsers(response.data));
   } catch (e) {
@@ -39,7 +39,7 @@ export const getUsers = () => async (dispatch) => {
 export const getServiceUser = (userId, token) => async (dispatch) => {
   try {
     const response = await axios.get(
-      `https://simpleservice-production.up.railway.app/user/${userId}`,
+      `https://simpleservice-w2vt.onrender.com/user/${userId}`,
       {
         headers: { Authorization: "Bearer " + token },
       }
@@ -53,7 +53,7 @@ export const getServiceUser = (userId, token) => async (dispatch) => {
 export const getAllUsers = () => async (dispatch) => {
   try {
     const response = await axios.get(
-      `https://simpleservice-production.up.railway.app/admin/users`,
+      `https://simpleservice-w2vt.onrender.com/admin/users`,
       {
         headers: { Authorization: "Bearer " + token },
       }
@@ -69,7 +69,7 @@ export const getAllUsers = () => async (dispatch) => {
 //POST REQUEST
 export const createdUser = (username, name, token, profilepic) => {
   axios.post(
-    "https://simpleservice-production.up.railway.app/users",
+    "https://simpleservice-w2vt.onrender.com/users",
     { username, name, profilepic },
     {
       headers: { Authorization: "Bearer " + token },
@@ -80,13 +80,13 @@ export const createdUser = (username, name, token, profilepic) => {
 //LOGIN REQUEST
 export const userLogin = async (token) => {
   const userResponseLogin = await axios.get(
-    "https://simpleservice-production.up.railway.app/login",
+    "https://simpleservice-w2vt.onrender.com/login",
     {
       headers: { Authorization: "Bearer " + token },
     }
   );
   if (userResponseLogin.data.message !== "User succesfully logged in") {
-    await axios.post("https://simpleservice-production.up.railway.app/alta", {
+    await axios.post("https://simpleservice-w2vt.onrender.com/alta", {
       name: userResponseLogin.data.user.name,
       email: userResponseLogin.data.user.email,
     });

@@ -73,14 +73,14 @@ export default function UpdateInfoUser() {
 
     try {
       await axios.put(
-        `https://simpleservice-production.up.railway.app/user/${userID}`,
+        `https://simpleservice-w2vt.onrender.com/user/${userID}`,
         info,
         {
           headers: { Authorization: "Bearer " + token },
         }
       );
 
-      await axios.post("https://simpleservice-production.up.railway.app/dato", {
+      await axios.post("https://simpleservice-w2vt.onrender.com/dato", {
         name: customerName,
         email: customerEmail,
       });
