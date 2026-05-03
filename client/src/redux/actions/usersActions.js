@@ -79,17 +79,22 @@ export const createdUser = (username, name, token, profilepic) => {
 
 //LOGIN REQUEST
 export const userLogin = async (token) => {
-  const userResponseLogin = await axios.get(
-    "https://simpleservice-w2vt.onrender.com/login",
-    {
-      headers: { Authorization: "Bearer " + token },
+  try {
+    const userResponseLogin = await axios.get(
+      "https://simpleservice-w2vt.onrender.com/login",
+      {
+        headers: { Authorization: "Bearer " + token },
+      }
+    );
+    const { message, user } = userResponseLogin.data;
+    if (message !== "User succesfully logged in" && user) {
+      await axios.post("https://simpleservice-w2vt.onrender.com/alta", {
+        name: user.name,
+        email: user.email,
+      });
     }
-  );
-  if (userResponseLogin.data.message !== "User succesfully logged in") {
-    await axios.post("https://simpleservice-w2vt.onrender.com/alta", {
-      name: userResponseLogin.data.user.name,
-      email: userResponseLogin.data.user.email,
-    });
+  } catch (error) {
+    console.log("userLogin error:", error.message);
   }
 };
 
