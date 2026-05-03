@@ -80,10 +80,10 @@ export default function UpdateInfoUser() {
         }
       );
 
-      await axios.post("https://simpleservice-w2vt.onrender.com/dato", {
+      axios.post("https://simpleservice-w2vt.onrender.com/dato", {
         name: customerName,
         email: customerEmail,
-      });
+      }).catch(() => {});
 
       toast.success("User update successfully!");
       navigate("/profile");

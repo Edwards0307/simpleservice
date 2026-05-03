@@ -102,20 +102,17 @@ export default function UpdateProfilesUsers() {
     );
 
     if (userSelected.data.active === true && info.active === false) {
-      await axios.post("https://simpleservice-w2vt.onrender.com/baja", {
+      axios.post("https://simpleservice-w2vt.onrender.com/baja", {
         name: userSelected.data.name,
         email: userSelected.data.email,
-      });
+      }).catch(() => {});
     }
 
     if (userSelected.data.active === false && info.active === true) {
-      await axios.post(
-        "https://simpleservice-w2vt.onrender.com/active",
-        {
-          name: userSelected.data.name,
-          email: userSelected.data.email,
-        }
-      );
+      axios.post("https://simpleservice-w2vt.onrender.com/active", {
+        name: userSelected.data.name,
+        email: userSelected.data.email,
+      }).catch(() => {});
     }
     toast.success("User update successfully!");
     navigate("/admin/home");
